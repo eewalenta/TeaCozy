@@ -2,7 +2,7 @@ body{
   font-size: 22px;
   font-family: helvetica;
   color: seashell;
-  background-color: lightblue;
+  background-color: black;
   opacity: 0.9;
   text-align: center;
 }
@@ -19,30 +19,8 @@ h4{
 display: inline-block;
 justify-content: center;
 }
+
 /*navigation*/
-/*old code
-.navRow{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    background: red;
-    height: 69px;
-}
-.navLogo{
-  border: 3px solid blue;
-  height: 50px;
-  margin-left: 15px;
-}
-.navBox > ul{
-  display: flex;
-  justify-content: space-around;
-  border: 3px solid orange;
-}
-.navBox > ul > li{
-  display: flex;
-  border: 1px solid white;
-}*/
 .navBar{
   position: fixed;
   top: 0;
