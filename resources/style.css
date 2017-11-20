@@ -1,0 +1,143 @@
+body{
+  font-size: 22px;
+  font-family: helvetica;
+  color: seashell;
+  background-color: lightblue;
+  opacity: 0.9;
+  text-align: center;
+}
+ul{
+  list-style-type: none;
+}
+h2{
+  margin: 15px;
+}
+h4{
+  margin: 10px auto;
+}
+.centerContent{
+display: inline-block;
+justify-content: center;
+}
+/*navigation*/
+/*old code
+.navRow{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background: red;
+    height: 69px;
+}
+.navLogo{
+  border: 3px solid blue;
+  height: 50px;
+  margin-left: 15px;
+}
+.navBox > ul{
+  display: flex;
+  justify-content: space-around;
+  border: 3px solid orange;
+}
+.navBox > ul > li{
+  display: flex;
+  border: 1px solid white;
+}*/
+.navBar{
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin: auto;
+  width: 100%;
+}
+.navRow{
+    display: flex;
+    align-items: center;
+    background: black;
+    height: 69px;
+    border-bottom: 1px solid seashell;
+}
+.navLogo{
+  height: 50px;
+  margin-left: 15px;
+  flex: 2;
+  background-image: url(./images/img-tea-cozy-logo.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.navBox{
+  display: flex;
+  flex: 1;
+  justify-content: space-around;
+}
+/*.navRow > ul{
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+}*/
+
+.menu{
+  color: seashell;
+}
+
+/*top mission box*/
+.topContainer{
+  height: 700px;
+  width: 1200px;
+  background-image: url(./images/img-mission-background.jpg);
+  display: flex;
+  align-items: center;
+}
+.topTitle{
+  width: 1200px;
+  background-color: black;
+}
+/*middle tea of the month box*/
+img{
+  width: 300px;
+  height: 200px;
+}
+.middleContainer{
+  width: 1000px;
+  margin: 50px;
+}
+.middleTitle{
+}
+.middleBoxContainer{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+.middleBox{
+  margin: 10px;
+}
+/*bottom locations box*/
+.bottomContainer{
+  height: 500px;
+  width: 1200px;
+  background-image: url(./images/img-locations-background.jpg);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.bottomTitle{
+}
+.bottomBoxContainer{
+  display: flex;
+  justify-content: center;
+}
+.bottomBox{
+  width: 300px;
+  background-color: black;
+  opacity: 1;
+  margin: 0px 20px;
+}
+/*footer */
+footer{
+  text-align: left;
+  margin: 20px;
+}
+.contact{
+  text-align: center;
+}
