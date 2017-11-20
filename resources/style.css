@@ -15,6 +15,10 @@ h2{
 h4{
   margin: 10px auto;
 }
+.mainContent{
+  margin: auto;
+  padding-top: 60px;
+}
 .centerContent{
 display: inline-block;
 justify-content: center;
