@@ -48,13 +48,6 @@ justify-content: center;
   flex: 1;
   justify-content: space-around;
 }
-/*.navRow > ul{
-  display: flex;
-  width: 100%;
-  justify-content: space-around;
-  align-items: center;
-}*/
-
 .menu{
   color: seashell;
 }
@@ -95,6 +88,7 @@ img{
   height: 500px;
   width: 1200px;
   background-image: url(./images/img-locations-background.jpg);
+  /*can't get the image to align correctly? like in the design spec*/
   display: flex;
   flex-direction: column;
   justify-content: center;
