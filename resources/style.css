@@ -55,6 +55,12 @@ justify-content: center;
 .menu{
   color: seashell;
 }
+.anchor{
+  display: block;
+  height: 70px; /*same height as header*/
+  margin-top: -70px; /*same height as header*/
+  visibility: hidden;
+}
 
 /*top mission box*/
 .topContainer{
@@ -69,6 +75,7 @@ justify-content: center;
   background-color: black;
 }
 /*middle tea of the month box*/
+
 img{
   width: 300px;
   height: 200px;
